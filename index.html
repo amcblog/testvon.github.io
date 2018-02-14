@@ -6,7 +6,24 @@ pagination:
   enabled: true
 layout: splash
 title: "AMC's Blog"
+feature_row1:
+  - image_path: /images/event-1.jpeg
+    alt: "Sự kiện sắp tới"
+    title: "Sự kiện sắp tới"
+    excerpt: "Sự kiện thú vị nào sắp diễn ra tại câu lạc bộ Toán ứng dụng ? Hãy cùng tìm hiểu nhé."
+    url: "https://github.com/amcblog"
+    btn_label: "Xem chi tiết"
+    btn_class: "btn--primary"
+feature_row2:
+  - image_path: /images/join-1.jpeg
+    title: "Trở thành cộng tác viên"
+    excerpt: "Bạn muốn đồng hành cùng chúng mình trong hành trình khám phá những bí ẩn của tri thức ? Còn chần chừ gì nữa, tham gia ngay nào !"
+    btn_label: "Đăng ký"
+    btn_class: "btn--primary" 
 ---
+{% include feature_row id="feature_row1" type="left" %}
+
+{% include feature_row id="feature_row2" type="right" %}
 
 <h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3>
 <div class="grid__wrapper">
@@ -14,4 +31,4 @@ title: "AMC's Blog"
         {% include archive-single.html type="grid" %}
     {% endfor %}
 </div>
-{% include paginator.html %}
+{% include paginator.html type="center" %}
