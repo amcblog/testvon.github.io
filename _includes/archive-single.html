@@ -34,7 +34,7 @@
             {% if post.read_time %}
             <pp><i class="far fa-clock" aria-hidden="true"></i> {% include read-time.html %}</pp>
           {% endif %}
-            {% if site.tag_archive.type and page.tags[0] %}
+            {% if site.tag_archive.type and post.tags[0] %}
                {% include tag-list.html %}
             {% endif %}
          </div>
