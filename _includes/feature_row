@@ -5,7 +5,8 @@
 {% endif %}
 
 <div class="feature__wrapper">
-
+ <br>
+<hr>
   {% for f in feature_row %}
 
     {% if f.url contains "://" %}
