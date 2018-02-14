@@ -32,7 +32,7 @@
     </h2>
          <div class="page__meta">
             {% if post.read_time %}
-            <p><i class="far fa-clock" aria-hidden="true"></i> {% include read-time.html %}</p>
+            <pp><i class="far fa-clock" aria-hidden="true"></i> {% include read-time.html %}</pp>
           {% endif %}
           {% if post.last_modified_at %}
           <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Updated:" }}</strong> <time datetime="{{ post.last_modified_at | date: "%Y-%m-%d" }}">{{ post.last_modified_at | date: "%B %d, %Y" }}</time></p>
