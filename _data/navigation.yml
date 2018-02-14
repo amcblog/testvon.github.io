@@ -1,0 +1,15 @@
+# main links
+main:
+  # - title: "Quick-Start Guide"
+  #   url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
+  - title: "Toán Lý Thuyết"
+    url: /categories/theory/
+  - title: "Toán Ứng Dụng"
+    url: /categories/apply/
+  - title: "Khoa Học & Công Nghệ"
+    url: /categories/sci-tech/
+  - title: "Chuyện Bên Lề"
+    url: /categories/others/
+  - title: "About"
+    url: /about/
+  

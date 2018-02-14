@@ -1,0 +1,14 @@
+von:
+  name: "von"
+  uri: "https://iamvon.github.io"
+  email: "tuanpm.amc@gmail.com"
+  bio: "Code runs my life."
+  avatar: "assets/img/admin.png"
+  facebook: "this.is.von"
+
+test:
+  name: "test"
+  email: "test@gmail.com"
+  bio: "hey i'm a test"
+  avatar: "assets/img/amc.png"
+  facebook: "appliedmathclub"
