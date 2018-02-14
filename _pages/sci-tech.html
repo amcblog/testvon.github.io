@@ -2,9 +2,12 @@
 layout: archive
 permalink: /categories/sci-tech/
 title: "Khoa học và Công nghệ"
+header:
+  overlay_image: images/sci-tech-1.jpeg
+  overlay_filter: 0.5
+excerpt: Những ý tưởng và những phát minh.
 author_profile: true
 ---
-<hr>
 {% capture written_year %}'None'{% endcapture %}
 {% for post in site.categories.sci-tech %}
   {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
