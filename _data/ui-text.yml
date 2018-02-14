@@ -806,8 +806,8 @@ id-ID:
 # -----------------
 vi: &DEFAULT_VI
   page                       : "Trang"
-  pagination_previous        : "Trước"
-  pagination_next            : "Sau"
+  pagination_previous        : "Bài trước"
+  pagination_next            : "Bài sau"
   breadcrumb_home_label      : "Trang chủ"
   breadcrumb_separator       : "/"
   menu_label                 : "Menu"
@@ -829,7 +829,7 @@ vi: &DEFAULT_VI
   powered_by                 : "Được hỗ trợ bởi"
   website_label              : "Website"
   email_label                : "Email"
-  recent_posts               : "Bài viết mới"
+  recent_posts               : "Bài đăng gần đây"
   undefined_wpm              : "Chưa định nghĩa thông số words_per_minute tại _config.yml"
   comment_form_info          : "Email của bạn sẽ được giữ bí mật. Các phần bắt buộc được đánh dấu."
   comment_form_comment_label : "Bình luận"
