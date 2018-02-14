@@ -29,7 +29,7 @@ layout: default
           {% if page.title %}<h1 class="page__title" itemprop="headline">{{ page.title | markdownify | remove: "<p>" | remove: "</p>" }}</h1>{% endif %}        
           <div class="page__meta">
            {% if page.read_time %}
-            <p><i class="far fa-clock" aria-hidden="true"></i> {% include read-time.html %}</p>
+            <pp><i class="far fa-clock" aria-hidden="true"></i> {% include read-time.html %}</pp>
           {% endif %}
           {% if page.last_modified_at %}
           <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Updated:" }}</strong> <time datetime="{{ page.last_modified_at | date: "%Y-%m-%d" }}">{{ page.last_modified_at | date: "%B %d, %Y" }}</time></p>
