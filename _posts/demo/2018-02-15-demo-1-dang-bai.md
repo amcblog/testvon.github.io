@@ -5,7 +5,7 @@ permalink: /categories/demo/demo-1
 tags: 
   - Demo
   - Cách đăng bài 
-tittle: "Demo 1: Cách đăng bài trên Blog"
+title: "Demo 1: Cách đăng bài trên Blog"
 excerpt: "Cách đăng 1 bài viết đúng chuẩn định dạng Jekyll Blog" 
 ---
 
@@ -26,7 +26,7 @@ Trong file bài đăng, phần đầu của file cần cấu hình bằng YAML n
 ---
 layout: single     #  Mặc định bắt buộc 
 category: demo   #  Chủ đề bài viết
-tittle: "Demo 1: Cách đăng bài trên Blog"   # Tiêu đề bài viết
+title: "Demo 1: Cách đăng bài trên Blog"   # Tiêu đề bài viết
 excerpt: "Cách đăng 1 bài viết đúng chuẩn định dạng Jekyll Blog"  # Giới thiệu/Trích đoạn bài viết (nên có)
 ---
 ```
