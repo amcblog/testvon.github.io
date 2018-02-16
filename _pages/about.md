@@ -5,7 +5,7 @@ header:
   overlay_color: "#5e616c"
   overlay_image: /images/header-1.jpeg
   caption:
-excerpt: "Câu lạc bộ Toán ứng dụng AMC trực thuộc Hội sinh viên Trường Đại học Công nghệ, Đại học Quốc gia Hà Nội. <br><br><br>"
+excerpt: Câu lạc bộ Toán ứng dụng AMC trực thuộc Hội sinh viên Trường Đại học Công nghệ, Đại học Quốc gia Hà Nội. <br><br><br>
 feature_row:
   - image_path: /images/header-1.jpeg
     alt: "about AMC"
