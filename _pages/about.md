@@ -2,8 +2,8 @@
 layout: splash
 permalink: /about/
 header:
-  overlay_color: "#5e616c"
   overlay_image: /images/header-1.jpeg
+  overlay_filter: 0.4
   caption:
 excerpt: Câu lạc bộ Toán ứng dụng AMC trực thuộc Hội sinh viên Trường Đại học Công nghệ, Đại học Quốc gia Hà Nội. <br><br><br>
 feature_row:
