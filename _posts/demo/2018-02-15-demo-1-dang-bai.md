@@ -22,7 +22,7 @@ Một số ví dụ về đặt tên đúng cách:
 
 Trong file bài đăng, phần đầu của file cần cấu hình bằng YAML những mục dữ liệu cơ bản sau:
 
-```YAML
+```yaml
 ---
 layout: single     #  Mặc định bắt buộc 
 category: demo   #  Chủ đề bài viết
