@@ -22,8 +22,10 @@ Một số ví dụ về đặt tên đúng cách:
 Trong file bài đăng, phần đầu của file cần cấu hình bằng YAML những mục dữ liệu cơ bản sau:
 
 ```YAML
+---
 layout: single     #  Mặc định bắt buộc 
 category: demo   #  Chủ đề bài viết
 tittle: "Demo 1: Cách đăng bài trên Blog"   # Tiêu đề bài viết
 excerpt: "Cách đăng 1 bài viết đúng chuẩn định dạng Jekyll Blog"  # Giới thiệu/Trích đoạn bài viết (nên có)
+---
 ```
