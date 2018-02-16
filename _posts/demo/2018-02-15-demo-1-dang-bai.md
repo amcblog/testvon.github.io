@@ -1,6 +1,7 @@
 ---
 layout: single
 category: demo
+permalink: /categories/demo/demo-1
 tags: 
   - Demo
   - Cách đăng bài 
