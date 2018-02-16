@@ -5,7 +5,7 @@ header:
   overlay_color: "#5e616c"
   overlay_image: /images/header-1.jpeg
   caption:
-excerpt: 'A flexible two-column Jekyll theme. Perfect for personal sites, blogs, and portfolios hosted on GitHub or your own server.
+excerpt: A flexible two-column Jekyll theme. Perfect for personal sites, blogs, and portfolios hosted on GitHub or your own server.
 feature_row:
   - image_path: /images/header-1.jpeg
     alt: "customizable"
