@@ -9,6 +9,6 @@ von:
 test:
   name: "test"
   email: "test@gmail.com"
-  bio: "hey i'm a test"
+  bio: "Hi, i'm a test"
   avatar: "assets/img/amc.png"
   facebook: "appliedmathclub"
