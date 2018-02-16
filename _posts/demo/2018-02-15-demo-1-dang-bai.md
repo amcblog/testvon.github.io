@@ -8,7 +8,7 @@ tags:
 title: "Demo 1: Cách đăng bài trên Blog"
 excerpt: "Cách đăng 1 bài viết đúng chuẩn định dạng Jekyll Blog" 
 ---
-
+---
 Các bài viết trên Blog được lưu trong thư mục `_posts/`, sau đó phân cấp theo các chủ đề: thư mục `_posts/theory` chứa các bài viết thuộc chủ đề **Toán lý thuyết**; thư mục `_posts/apply` chứa các bài viết thuộc chủ đề **Toán ứng dụng**; thư mục `_posts/sci-tech` là các bài viết thuộc chủ đề **Khoa học & Công nghệ**; cuối cùng thư mục `_posts/others` chứa các bài viết thuộc chủ đề **Chuyện bên lề**.
 
 Tên của bài đăng phải lưu dưới định dạng sau: `NĂM-THÁNG-NGÀY-tiêu-đề.md` (tiếng Việt không dấu).
