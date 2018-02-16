@@ -5,29 +5,29 @@ header:
   overlay_color: "#5e616c"
   overlay_image: /images/header-1.jpeg
   caption:
-excerpt: A flexible two-column Jekyll theme. Perfect for personal sites, blogs, and portfolios hosted on GitHub or your own server.
+excerpt: "Câu lạc bộ Toán ứng dụng AMC trực thuộc Hội sinh viên Trường Đại học Công nghệ, Đại học Quốc gia Hà Nội. <br><br><br>"
 feature_row:
   - image_path: /images/header-1.jpeg
-    alt: "customizable"
-    title: "Super Customizable"
-    excerpt: "Everything from the menus, sidebars, comments, and more can be configured or set with YAML Front Matter."
-    url: ""
+    alt: "about AMC"
+    title: "Về Câu lạc bộ"
+    excerpt: "Muốn biết rõ hơn về câu lạc bộ của chúng mình ?"
+    url: "https://testvon.github.io/about/"
     btn_class: "btn--primary"
-    btn_label: "Learn More"
+    btn_label: "Tìm hiểu thêm"
   - image_path: /images/header-1.jpeg
-    alt: "fully responsive"
-    title: "Responsive Layouts"
-    excerpt: "Built on HTML5 + CSS3. All layouts are fully responsive with helpers to augment your content."
-    url: ""
+    alt: "Về trang Blog"
+    title: "about Blog"
+    excerpt: "Muốn biết rõ hơn về Blog của chúng mình ?"
+    url: "https://testvon.github.io/about/"
     btn_class: "btn--primary"
-    btn_label: "Learn More"
+    btn_label: "Tìm hiểu thêm"
   - image_path: /images/header-1.jpeg
-    alt: "100% free"
-    title: "100% Free"
-    excerpt: "Free to use however you want under the MIT License. Clone it, fork it, customize it, whatever!"
-    url: ""
+    alt: "more"
+    title: "Còn nhiều hơn nữa"
+    excerpt: "Còn nhiều điều thú vị nữa đang chờ bạn khám phá đấy !"
+    url: "https://testvon.github.io/about/"
     btn_class: "btn--primary"
-    btn_label: "Learn More"
+    btn_label: "Tìm hiểu thêm"
 ---
 
 {% include feature_row %}
