@@ -15,7 +15,7 @@ feature_row:
     btn_class: "btn--primary"
     btn_label: "Tìm hiểu thêm"
   - image_path: /images/header-1.jpeg
-    alt: "about Blog"
+    alt: "about Blog"
     title: "Về trang Blog"
     excerpt: "Muốn biết rõ hơn về Blog của chúng mình ?"
     url: "https://testvon.github.io/about/"
@@ -23,7 +23,7 @@ feature_row:
     btn_label: "Tìm hiểu thêm"
   - image_path: /images/header-1.jpeg
     alt: "more"
-    title: "Nhiều hơn thế nữa"
+    title: "Nhiều hơn thế nữa"
     excerpt: "Còn nhiều điều thú vị nữa đang chờ bạn khám phá đấy !"
     url: "https://testvon.github.io/about/"
     btn_class: "btn--primary"
