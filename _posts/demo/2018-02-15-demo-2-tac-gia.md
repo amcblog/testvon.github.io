@@ -33,7 +33,7 @@ von:
 test:
   name: "Test"
   email: "test@gmail.com"
-  bio: "Hi, i'm a Test"
+  bio: "Hi, i'm a Test."
   avatar: "assets/img/amc.png"
   facebook: "appliedmathclub"
 ```
