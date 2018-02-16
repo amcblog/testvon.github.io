@@ -1,7 +1,7 @@
 # main links
 main:
-  # - title: "Quick-Start Guide"
-  #   url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
+  - title: "Demo"
+    url: /categories/demo/
   - title: "Toán Lý Thuyết"
     url: /categories/theory/
   - title: "Toán Ứng Dụng"
