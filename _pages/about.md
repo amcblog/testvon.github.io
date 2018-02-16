@@ -9,21 +9,21 @@ excerpt: Câu lạc bộ Toán ứng dụng AMC trực thuộc Hội sinh viên 
 feature_row:
   - image_path: /images/header-1.jpeg
     alt: "about AMC"
-    title: "Về Câu lạc bộ"
+    title: "Về câu lạc bộ"
     excerpt: "Muốn biết rõ hơn về câu lạc bộ của chúng mình ?"
     url: "https://testvon.github.io/about/"
     btn_class: "btn--primary"
     btn_label: "Tìm hiểu thêm"
   - image_path: /images/header-1.jpeg
-    alt: "Về trang Blog"
-    title: "about Blog"
+    alt: "about Blog"
+    title: "Về trang Blog"
     excerpt: "Muốn biết rõ hơn về Blog của chúng mình ?"
     url: "https://testvon.github.io/about/"
     btn_class: "btn--primary"
     btn_label: "Tìm hiểu thêm"
   - image_path: /images/header-1.jpeg
     alt: "more"
-    title: "Còn nhiều hơn nữa"
+    title: "Nhiều hơn thế nữa"
     excerpt: "Còn nhiều điều thú vị nữa đang chờ bạn khám phá đấy !"
     url: "https://testvon.github.io/about/"
     btn_class: "btn--primary"
