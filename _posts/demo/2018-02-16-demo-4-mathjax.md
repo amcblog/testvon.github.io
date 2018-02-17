@@ -31,6 +31,7 @@ $$
 
 ```latex
 # MathJax
+
 $$ f(x)=\sum_{n=0}^{\infty}\frac{f^{(n)}(a)}{n!}(x-a)^n 
 = f(a)+\frac{f^{'}(a)}{1!}(x-a)+\frac{f^{''}(a)}{2!}(x-a)^2+\frac{f^{'''}(a)}{3!}(x-a)^3+... 
 $$
@@ -44,6 +45,7 @@ $$
 
 ```latex
 # MathJax
+
 $$ 
 e^x=\sum_{n=0}^{\infty}\frac{x^n}{n!} 
 = 1+\frac{x}{1!}+\frac{x^2}{2!}+\frac{x^3}{3!}+...
@@ -58,6 +60,7 @@ $$
 
 ```latex
 # MathJax
+
 $$ 
 \int\frac{dx}{\sqrt{a^2-x^2}}=arcsin\frac{x}{|a|}+C
 $$
@@ -74,6 +77,8 @@ $$
 $$
 
 ```latex
+# MathJax
+
 $$
   \left[\begin{array}{rrr|r}
     x & y & z & 1   \\ 
