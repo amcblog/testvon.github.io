@@ -11,6 +11,7 @@ toc_label: "Tóm tắt nội dung"
 toc_icon: "cog"
 author: von
 ---
+---
 ## Giải Tích
 
 Đối với các bạn sinh viên khối ngành khoa học kỹ thuật có lẽ đã chẳng còn xa lạ gì đối với môn học huyền thoại này. Giải Tích là một môn học bắt buộc giúp tạo cho bạn một nền tảng toán học vững chắc để có thể học lên các môn chuyên ngành sau này. Chính vì vậy, học tốt Giải Tích là hết sức cần thiết. 
