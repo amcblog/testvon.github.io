@@ -10,7 +10,7 @@ title: "Demo 7: Syntax Highlighting"
 excerpt: "Syntax Highlighting giúp code của bạn dễ đọc và dễ tìm lỗi hơn." 
 ---
 ---
-Đoạn mã C++ hiển thị có sử dụng syntax highlighting và đánh số dòng:
+Đoạn mã C++ được hiển thị có sử dụng syntax highlighting và đánh số dòng:
 {% highlight cpp linenos %}
 #include <iostream>
 #include <cstdlib>
