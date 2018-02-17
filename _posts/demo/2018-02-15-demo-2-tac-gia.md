@@ -8,7 +8,7 @@ tags:
   - Demo
   - Tác giả   
 title: "Demo 2: Cập nhật thông tin tác giả"
-excerpt: "Trở thành 1 tác giả viết bài trên AMC's Blog" 
+excerpt: "Trở thành 1 tác giả viết bài trên AMC's Blog." 
 ---
 ---
 AMC's Blog được xây dựng dựa trên nền tảng Jekyll. Jekyll cung cấp cách lưu trữ dữ liệu bằng [data files](https://jekyllrb.com/docs/datafiles/), dựa vào đó ta có thể cập nhật và lưu trữ thông tin của nhiều tác giả khác nhau. AMC's Blog do vậy là 1 trang Blog hỗ trợ đa tác giả.
