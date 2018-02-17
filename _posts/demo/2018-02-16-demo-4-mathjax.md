@@ -1,6 +1,6 @@
 ---
 layout: single
-#classes: wide
+classes: wide
 category: demo
 permalink: /categories/demo/demo-4
 tags:
@@ -24,28 +24,43 @@ Dưới đây là 1 vài ví dụ về soạn thảo công thức bằng MathJax
 
 Khai triển chuỗi Taylor bậc n của hàm số $$f(x)$$ tại a :
 
-$$ f(x)=\sum_{n=0}^{\infty}\frac{f^{(n)}(a)}{n!}(x-a)^n = f(a)+\frac{f^{'}(a)}{1!}(x-a)+\frac{f^{''}(a)}{2!}(x-a)^2+\frac{f^{'''}(a)}{3!}(x-a)^3+... $$
+$$ 
+f(x)=\sum_{n=0}^{\infty}\frac{f^{(n)}(a)}{n!}(x-a)^n 
+= f(a)+\frac{f^{'}(a)}{1!}(x-a)+\frac{f^{''}(a)}{2!}(x-a)^2+\frac{f^{'''}(a)}{3!}(x-a)^3+...
+$$
 
 ```latex
 # MathJax
-$$ f(x)=\sum_{n=0}^{\infty}\frac{f^{(n)}(a)}{n!}(x-a)^n = f(a)+\frac{f^{'}(a)}{1!}(x-a)+\frac{f^{''}(a)}{2!}(x-a)^2+\frac{f^{'''}(a)}{3!}(x-a)^3+... $$
+$$ f(x)=\sum_{n=0}^{\infty}\frac{f^{(n)}(a)}{n!}(x-a)^n 
+= f(a)+\frac{f^{'}(a)}{1!}(x-a)+\frac{f^{''}(a)}{2!}(x-a)^2+\frac{f^{'''}(a)}{3!}(x-a)^3+... 
+$$
 ```
 
 Khai triển chuỗi Maclaurin của hàm số $$e^x$$:`
-$$ e^x=\sum_{n=0}^{\infty}\frac{x^n}{n!} = 1+\frac{x}{1!}+\frac{x^2}{2!}+\frac{x^3}{3!}+... $$
+$$ 
+e^x=\sum_{n=0}^{\infty}\frac{x^n}{n!} 
+= 1+\frac{x}{1!}+\frac{x^2}{2!}+\frac{x^3}{3!}+...
+$$
 
 ```latex
 # MathJax
-$$ e^x=\sum_{n=0}^{\infty}\frac{x^n}{n!} = 1+\frac{x}{1!}+\frac{x^2}{2!}+\frac{x^3}{3!}+... $$
+$$ 
+e^x=\sum_{n=0}^{\infty}\frac{x^n}{n!} 
+= 1+\frac{x}{1!}+\frac{x^2}{2!}+\frac{x^3}{3!}+...
+$$
 ```
 
 Một nguyên hàm cơ bản:
 
-$$ \int\frac{dx}{\sqrt{a^2-x^2}}=arcsin\frac{x}{|a|}+C $$
+$$ 
+\int\frac{dx}{\sqrt{a^2-x^2}}=arcsin\frac{x}{|a|}+C 
+$$
 
 ```latex
 # MathJax
-$$ \int\frac{dx}{\sqrt{a^2-x^2}}=arcsin\frac{x}{|a|}+C $$
+$$ 
+\int\frac{dx}{\sqrt{a^2-x^2}}=arcsin\frac{x}{|a|}+C
+$$
 ```
 
 Một ma trận tham số:
