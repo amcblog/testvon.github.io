@@ -95,6 +95,6 @@ Có thể lúc này bạn đang cảm thấy hơi bối rối trước những �
 
 Chắc chắn rằng sẽ rất khó khăn cho người mới bắt đầu, do vậy mình liệt kê một số tài liệu tham khảo cũng như công cụ giúp bạn làm quen dễ hơn với MathJax và LaTeX:
 
-1. <https://math.meta.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference>. Đây là trang tham khảo giúp bạn học nhanh về cú pháp cũng như những ứng dụng của MathJax trong việc soạn thảo những công thức trong những chủ đề kiến thức khác nhau trong toán học.
+1. <https://math.meta.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference>. Đây là trang tham khảo giúp bạn học nhanh về cú pháp cũng như những ứng dụng của MathJax trong việc soạn thảo những công thức trong những chủ đề kiến thức khác nhau của toán học.
 2. <https://oeis.org/wiki/List_of_LaTeX_mathematical_symbols>. Đây là trang giúp bạn tra cứu cú pháp của những ký hiệu toán học được sử dụng trong LaTeX.
 3. <https://www.codecogs.com/latex/eqneditor.php> và <http://www.sciweavers.org/free-online-latex-equation-editor>. Đây là 2 trang Web giúp bạn soạn thảo LaTeX online với nhiều ký hiệu và công thức được hỗ trợ. Mình rất khuyến khích các bạn mới bắt đầu sử dụng 2 trang này để soạn thảo công thức để giảm thiểu tối đa sai sót.
