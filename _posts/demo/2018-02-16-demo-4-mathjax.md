@@ -37,7 +37,7 @@ $$ f(x)=\sum_{n=0}^{\infty}\frac{f^{(n)}(a)}{n!}(x-a)^n
 $$
 ```
 
-Khai triển chuỗi Maclaurin của hàm số $$e^x$$:`
+Khai triển chuỗi Maclaurin của hàm số $$e^x$$:
 
 $$ 
 e^x=\sum_{n=0}^{\infty}\frac{x^n}{n!} 
