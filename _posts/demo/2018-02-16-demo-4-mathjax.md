@@ -22,7 +22,7 @@ $$...$$
 
 Dưới đây là 1 vài ví dụ về soạn thảo công thức bằng MathJax:
 
-Khai triển chuỗi Taylor bậc n của hàm số $$f(x)$$ tại a :
+Khai triển chuỗi Taylor bậc $$n$$ của hàm số $$f(x)$$ tại $$a$$ :
 
 $$ 
 f(x)=\sum_{n=0}^{\infty}\frac{f^{(n)}(a)}{n!}(x-a)^n 
@@ -38,6 +38,7 @@ $$
 ```
 
 Khai triển chuỗi Maclaurin của hàm số $$e^x$$:`
+
 $$ 
 e^x=\sum_{n=0}^{\infty}\frac{x^n}{n!} 
 = 1+\frac{x}{1!}+\frac{x^2}{2!}+\frac{x^3}{3!}+...
