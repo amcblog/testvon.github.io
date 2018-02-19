@@ -83,5 +83,4 @@ Bạn cũng có thể thêm `caption` cho bộ sưu tập:
 {% raw %}{% include gallery caption="Caption có hỗ trợ **Markdown**." %}{% endraw %}
 ```
 
-{% include gallery caption="Caption có hỗ trợ **Markdown**."" %}
 
