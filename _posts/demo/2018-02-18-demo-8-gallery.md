@@ -85,19 +85,3 @@ Bạn cũng có thể thêm `caption` cho bộ sưu tập:
 
 {% include gallery caption="Caption có hỗ trợ **Markdown**."" %}
 
-Đây là một đoạn văn bản sau khi đăng xong bộ sưu tập để kiểm tra căn lề.
-
-Đây là bộ sưu tập thứ 2, với định dạng ảnh đính kèm link ngoài
-
-```yaml
-gallery2:
-  - url: https://unsplash.com/photos/6eCBRY8x3WM
-    image_path: https://images.unsplash.com/photo-1496776574435-bf184935f729?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=d2735b09c03133aac6006a57388d7aa8&auto=format&fit=crop&w=750&q=80
-    alt: "Leafs and light."
-  - url: https://unsplash.com/photos/iHcKoB32NRI
-    image_path: https://images.unsplash.com/photo-1501720073446-cb5ad67b48c4?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=b08d3cd9a19296b1d07597c70beb6ba4&auto=format&fit=crop&w=750&q=80
-    alt: "Coconut and sky."
-  - url: https://unsplash.com/photos/t8ts5bNQyWo
-    image_path: https://images.unsplash.com/photo-1494008127121-feed7bf4f03c?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=67363b1526d00da2c7f76133918a3a3a&auto=format&fit=crop&w=750&q=80
-    alt: "Cherry blossom"
-```
