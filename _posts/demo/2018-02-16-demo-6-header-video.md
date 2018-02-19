@@ -7,6 +7,7 @@ header:
 categories: demo
 permalink: /categories/demo/demo-6
 tags:
+  - Demo
   - video
   - header
 ---
