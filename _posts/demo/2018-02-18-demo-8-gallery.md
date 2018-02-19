@@ -84,11 +84,11 @@ Bạn cũng có thể thêm `caption` cho bộ sưu tập:
 {% raw %}{% include gallery caption="Caption có hỗ trợ **Markdown**." %}{% endraw %}
 ```
 
-{% include gallery caption="Caption có hỗ trợ **Markdown**." %}
+
 
 Đây là một đoạn văn bản sau khi đăng xong bộ sưu tập để kiểm tra căn lề.
 
-Đây là bộ sưu tập thứ 2, với định dạng ảnh đính kèm link ngoài
+Đây là bộ sưu tập thứ 2, với định dạng ảnh đính kèm link ngoài:
 
 ```yaml
 gallery2:
