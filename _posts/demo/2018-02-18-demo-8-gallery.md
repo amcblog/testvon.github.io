@@ -6,7 +6,7 @@ permalink: /categories/demo/demo-8
 categories: demo
 tags:
   - gallery
-  - demo
+  - Demo
 gallery:
   - url: /images/demo-8/gallery-1.jpeg
     image_path: /images/demo-8/gallery-1.jpeg
