@@ -83,8 +83,7 @@ Bạn cũng có thể thêm `caption` cho bộ sưu tập:
 ```liquid
 {% raw %}{% include gallery caption="Caption có hỗ trợ **Markdown**." %}{% endraw %}
 ```
-
-
+{% include gallery caption="Caption có hỗ trợ **Markdown**." %}
 
 Đây là một đoạn văn bản sau khi đăng xong bộ sưu tập để kiểm tra căn lề.
 
