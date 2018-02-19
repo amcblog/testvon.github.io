@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "Demo 8: Gallery"
-excerpt: "" 
+excerpt: "Đăng bộ sưu tậm ảnh của bạn." 
 permalink: /categories/demo/demo-8
 categories: demo
 tags:
