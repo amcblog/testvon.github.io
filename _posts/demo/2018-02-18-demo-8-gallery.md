@@ -16,20 +16,20 @@ gallery:
     image_path: /images/demo-8/gallery-2.jpeg
     alt: "Ảnh 2"
     title: "Ảnh 2"
-  - url: /images/demo-8/gallery-3.jpeg.jpg
-    image_path: /images/demo-8/gallery-3.jpeg
+  - url: /images/demo-8/gallery-3.jpeg
+    image_path: /images/demo-8/gallery-3.jpeg
     alt: "Ảnh 3"
     title: "Ảnh 3"
   - url: /images/demo-8/gallery-4.jpeg
     image_path: /images/demo-8/gallery-4.jpeg
     alt: "Ảnh 4"
     title: "Ảnh 4"
-  - url: /images/demo-8/gallery-5.jpeg.jpg
-    image_path: /images/demo-8/gallery-5.jpeg
+  - url: /images/demo-8/gallery-5.jpeg
+    image_path: /images/demo-8/gallery-5.jpeg
     alt: "Ảnh 5"
     title: "Ảnh 5"
-  - url: /images/demo-8/gallery-6.jpeg.jpeg
-    image_path: /images/demo-8/gallery-6.jpeg
+  - url: /images/demo-8/gallery-6.jpeg
+    image_path: /images/demo-8/gallery-6.jpeg
     alt: "Ảnh 6"
     title: "Ảnh 6"
 gallery2:
@@ -63,22 +63,10 @@ gallery:
     image_path: /images/demo-8/gallery-2.jpeg
     alt: "Ảnh 2"
     title: "Ảnh 2"
-  - url: /images/demo-8/gallery-3.jpeg.jpg
-    image_path: /images/demo-8/gallery-3.jpeg
+  - url: /images/demo-8/gallery-3.jpeg
+    image_path: /images/demo-8/gallery-3.jpeg
     alt: "Ảnh 3"
     title: "Ảnh 3"
-  - url: /images/demo-8/gallery-4.jpeg
-    image_path: /images/demo-8/gallery-4.jpeg
-    alt: "Ảnh 4"
-    title: "Ảnh 4"
-  - url: /images/demo-8/gallery-5.jpeg.jpg
-    image_path: /images/demo-8/gallery-5.jpeg
-    alt: "Ảnh 5"
-    title: "Ảnh 5"
-  - url: /images/demo-8/gallery-6.jpeg.jpeg
-    image_path: /images/demo-8/gallery-6.jpeg
-    alt: "Ảnh 6"
-    title: "Ảnh 6"
 ```
 
 And then drop-in the gallery include --- gallery `caption` is optional.
