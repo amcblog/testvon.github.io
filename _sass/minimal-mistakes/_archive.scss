@@ -52,7 +52,7 @@
   text-overflow: ellipsis;
 
   a {
-    color: inherit;
+    color: $text-color;
     text-decoration: blink;
     text-decoration-line: underline;
     text-decoration-style: dashed;
