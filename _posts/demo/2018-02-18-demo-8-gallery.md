@@ -81,13 +81,13 @@ gallery:
 Bạn cũng có thể thêm `caption` cho bộ sưu tập:
 
 ```liquid
-{% raw %}{% include gallery caption="Caption có hỗ trợ **Markdown**." %}{% endraw %}
+{% raw %}{% include gallery class="full" caption="Caption có hỗ trợ **Markdown**." %}{% endraw %}
 ```
 {% include gallery caption="Caption có hỗ trợ **Markdown**." %}
 
 Đây là một đoạn văn bản sau khi đăng xong bộ sưu tập để kiểm tra căn lề.
 
-Đây là bộ sưu tập thứ 2, với định dạng ảnh đính kèm link ngoài:
+Đây là bộ sưu tập thứ hai, với định dạng ảnh đính kèm link ngoài:
 
 ```yaml
 gallery2:
@@ -105,7 +105,7 @@ gallery2:
 Sau khi cấu hình xong phần mã YAML, ta đăng bộ sưu tập, sử dụng thêm `id` để tham chiếu: 
 
 ```liquid
-{% raw %}{% include gallery id="gallery2" caption="Bộ sưu tập 2 với ảnh đính kèm link ngoài." %}{% endraw %}
+{% raw %}{% include gallery id="gallery2" caption="Bộ sưu tập với ảnh đính kèm link ngoài." %}{% endraw %}
 ```
 
 {% include gallery id="gallery2" caption="Bộ sưu tập 2 với ảnh đính kèm link ngoài." %}
