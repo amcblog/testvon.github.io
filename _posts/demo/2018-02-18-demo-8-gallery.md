@@ -1,3 +1,4 @@
+---
 layout: single
 title: "Demo 8: Gallery"
 excerpt: "" 
