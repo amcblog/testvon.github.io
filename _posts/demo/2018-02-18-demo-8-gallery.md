@@ -81,7 +81,7 @@ gallery:
 Bạn cũng có thể thêm `caption` cho bộ sưu tập:
 
 ```liquid
-{% raw %}{% include gallery class="full" caption="Caption có hỗ trợ **Markdown**." %}{% endraw %}
+{% raw %}{% include gallery caption="Caption có hỗ trợ **Markdown**." %}{% endraw %}
 ```
 {% include gallery caption="Caption có hỗ trợ **Markdown**." %}
 
