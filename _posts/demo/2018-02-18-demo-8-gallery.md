@@ -110,6 +110,3 @@ Sau khi cấu hình xong phần mã YAML, ta đăng bộ sưu tập, sử dụng
 
 {% include gallery id="gallery2" caption="Bộ sưu tập 2 với ảnh đính kèm link ngoài." %}
 
-Bộ sưu tập cuối (không pop-up) với ảnh phủ toàn bộ phần nội dung bằng cách thêm `class="full"`:
-
-{% include gallery id="gallery3" class="full" caption="" %}
