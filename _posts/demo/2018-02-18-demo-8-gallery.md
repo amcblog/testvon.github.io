@@ -101,12 +101,3 @@ gallery2:
     image_path: https://images.unsplash.com/photo-1494008127121-feed7bf4f03c?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=67363b1526d00da2c7f76133918a3a3a&auto=format&fit=crop&w=750&q=80
     alt: "Cherry blossom"
 ```
-
-Sau khi cấu hình xong phần mã YAML, ta đăng bộ sưu tập, sử dụng thêm `id` để tham chiếu: 
-
-```liquid
-{% raw %}{% include gallery id="gallery2" caption="Bộ sưu tập 2 với ảnh đính kèm link ngoài." %}{% endraw %}
-```
-
-{% include gallery id="gallery2" caption="Bộ sưu tập 2 với ảnh đính kèm link ngoài." %}
-
