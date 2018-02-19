@@ -108,7 +108,7 @@ Sau khi cấu hình xong phần mã YAML, ta đăng bộ sưu tập, sử dụng
 {% raw %}{% include gallery id="gallery2" caption="Bộ sưu tập với ảnh đính kèm link ngoài." %}{% endraw %}
 ```
 
-{% include gallery id="gallery2" caption="Bộ sưu tập 2 với ảnh đính kèm link ngoài." %}
+{% include gallery id="gallery2" caption="Bộ sưu tập với ảnh đính kèm link ngoài." %}
 
 Bộ sưu tập cuối (không pop-up) với ảnh phủ toàn bộ phần nội dung bằng cách thêm `class="full"`:
 
