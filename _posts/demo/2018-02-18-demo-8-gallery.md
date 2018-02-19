@@ -58,7 +58,7 @@ gallery:
   - url:         # URL của ảnh
     image_path:  # đường dẫn ảnh
     alt: ""      # Text thay thế nếu không load được ảnh
-    title: ""    #Phụ đề ảnh 
+    title: ""    # Phụ đề ảnh 
 ```
 Trên đây ta đã thêm vào 1 ảnh cho bộ sưu tập, vì bộ sưu tập bao gồm nhiều ảnh nên có thể thêm các ảnh khác vào theo cách tương tự. Dưới đây là 1 ví dụ:
 
