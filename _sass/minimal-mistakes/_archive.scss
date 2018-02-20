@@ -54,6 +54,7 @@
   a {
     color: $text-color;
     text-decoration: blink;
+    text-decoration-color: #03efef; 
   }
 
   a + a {
@@ -96,7 +97,6 @@
     text-decoration: underline;
     text-decoration-line: underline;
     text-decoration-style: dashed;
-    text-decoration-color: #03efef; 
   }
 }
 
