@@ -242,11 +242,6 @@ figure {
     .page__lead {
       max-width: $medium;
     }
-
-      @include breakpoint($small) {
-        font-size: $type-size-1;
-      }
-    }
   }
 }
 
