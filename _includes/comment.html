@@ -32,13 +32,13 @@
     {% endif %}
   </div>
 
-  <h3_cmt class="comment__author" itemprop="author" itemscope itemtype="http://schema.org/Person">
+  <h7 class="comment__author" itemprop="author" itemscope itemtype="http://schema.org/Person">
     {% unless include.url == blank %}
       <span itemprop="name"><a rel="external nofollow" itemprop="url" href="{{ include.url }}">{{ include.name }}</a></span>
     {% else %}
       <span itemprop="name">{{ include.name }}</span>
     {% endunless %}
-  </h3_cmt>
+  </h7>
 
   <div class="comment__date">
     {% if include.date %}
