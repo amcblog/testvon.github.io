@@ -43,7 +43,7 @@
   <div class="comment__date">
     {% if include.date %}
       {% if include.index %}<a href="#comment{% if r %}{{ index | prepend: '-' }}{% else %}{{ include.index | prepend: '-' }}{% endif %}" title="Permalink to this comment" itemprop="url">{% endif %}
-      <time datetime="{{ include.date | date_to_xmlschema }}" itemprop="datePublished">{{ include.date | date: "%B %d, %Y at %I:%M %p" }}</time>
+      <time datetime="{{ include.date | date_to_xmlschema }}" itemprop="datePublished">{{ include.date | date: "%B %d, %Y }}</time>
       {% if include.index %}</a>{% endif %}
     {% endif %}
   </div>
@@ -52,7 +52,7 @@
 
   {% unless include.replying_to != 0 or page.comments_locked == true %}
   <div class="comment__reply">
-    <a rel="nofollow" class="btn" href="#comment-{{ include.index }}" onclick="return addComment.moveForm('comment-{{ include.index }}', '{{ include.index }}', 'respond', '{{ page.slug }}')">Reply to {{ include.name }}</a>
+    <a rel="nofollow" class="btn" href="#comment-{{ include.index }}" onclick="return addComment.moveForm('comment-{{ include.index }}', '{{ include.index }}', 'respond', '{{ page.slug }}')"> Trả lời {{ include.name }}</a>
   </div>
   {% endunless %}
 
