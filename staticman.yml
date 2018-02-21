@@ -2,28 +2,28 @@ comments:
   allowedFields          : ['name', 'email', 'replying_to', 'url', origin', 'slug', 'message']
 #  requiredFields         : ['name', 'email', 'origin', 'slug', 'message']
   requiredFields         : ['name', 'email', 'message']
-  allowedOrigins         : ["localhost", "justinrummel.com", "www.justinrummel.com"]
+  allowedOrigins         : ["testvon.github.io"]
   branch                 : "jr-branch"
-  commitMessage          : "New comment.  QUICK, go LOOK!"
+  commitMessage          : "New comment."
   filename               : comment-{@timestamp}
-  name                   : "Justin Rummel . com"
+  name                   : "testvon.github.io"
   format                 : "yaml"
-  moderation             : false
+  moderation             : true
   path                   : "_data/comments/{options.slug}" # "_data/comments/{options.slug}" (default)
   # with Mailgun, which you can get for free at http://mailgun.com.
   # https://mademistakes.com/articles/improving-jekyll-static-comments/
-  notifications:
-    enabled: true
-    fromAddress: "Thank You <no-reply@justinrummel.com>"
+  #notifications:
+   # enabled: true
+    #fromAddress: "Thank You <no-reply@justinrummel.com>"
     # To encrypt those, you can use the following endpoint: https://api.staticman.net/v2/encrypt/{TEXT TO BE ENCRYPTED}
     # Mailgun API key (encrypted)
-    apiKey: "co8CkQak02QXbz8qXRwGouCJ5Rxr50pmMjpNaEFgfOgrvi3vqWoPsi9tjTl/9VIG6j3FD6WbsLeevZLf6dRazdUED0/FR8kpi7METcef+cYuIcxu7Df2rnUGpyAIEGqRBNhJeMo+KS4kNqxup4vCWDnJyoM3QyUqTjv4qZdMVLM="
+   # apiKey: "co8CkQak02QXbz8qXRwGouCJ5Rxr50pmMjpNaEFgfOgrvi3vqWoPsi9tjTl/9VIG6j3FD6WbsLeevZLf6dRazdUED0/FR8kpi7METcef+cYuIcxu7Df2rnUGpyAIEGqRBNhJeMo+KS4kNqxup4vCWDnJyoM3QyUqTjv4qZdMVLM="
     # Mailgun domain (encrypted)
-    domain: "Ssoke2LtfZ62Sy3TFmStaOLcvFUzLAiUeHm+UxTuSSvPu/1b/Cgf3F2l1xopzWpBgAK4lRa7C+BMLXNEmYAH5aKQibe8TXt9yf3b9a5GUcKkh3kjcpODZvMMAAtaKf6D5POrPwcGi4lfXWFyGSuN1op5KSjYi4gAGJ0SONLJnY0="
+   # domain: "Ssoke2LtfZ62Sy3TFmStaOLcvFUzLAiUeHm+UxTuSSvPu/1b/Cgf3F2l1xopzWpBgAK4lRa7C+BMLXNEmYAH5aKQibe8TXt9yf3b9a5GUcKkh3kjcpODZvMMAAtaKf6D5POrPwcGi4lfXWFyGSuN1op5KSjYi4gAGJ0SONLJnY0="
   transforms:
     email                : "md5"
   reCaptcha:
-    enabled: true
+    enabled: false
     siteKey: "6Lfj9ysUAAAAAOWg3kjG9nsoDgJpZBo7PhxAMh1c"
     secret: "jlq9b/ZJ74mENEygF6jhYrTs/YUQVZoeMKl9giynbSXBmU5spAj1ETwwzaMOzsRqLukAEvAku5v5Af7O++2n2NGeSLQNOixSJfqCDrNMk3Ob6A4aRN11CQT5qFRlJxyVGmia8tZzqEyd1mrbZpd+AVsIh2sC5jhdrx+zgogCLkk="
   generatedFields:
