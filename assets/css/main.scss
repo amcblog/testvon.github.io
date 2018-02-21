@@ -8,14 +8,14 @@
 @import "minimal-mistakes"; // main partials
 
 // .rounded(VALUE);
-rounded($radius:4px) {
+@mixin rounded($radius:4px) {
   -webkit-border-radius : $radius;
   -moz-border-radius : $radius;
   border-radius : $radius;
 }
 
 // .border-radius(VALUE,VALUE,VALUE,VALUE);
-border-radius($topright: 0, $bottomright: 0, $bottomleft: 0, $topleft: 0) {
+@mixin border-radius($topright: 0, $bottomright: 0, $bottomleft: 0, $topleft: 0) {
   -webkit-border-top-right-radius : $topright;
   -webkit-border-bottom-right-radius : $bottomright;
   -webkit-border-bottom-left-radius : $bottomleft;
