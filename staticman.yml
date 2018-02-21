@@ -3,7 +3,7 @@ comments:
 #  requiredFields         : ['name', 'email', 'origin', 'slug', 'message']
   requiredFields         : ['name', 'email', 'message']
   allowedOrigins         : ["testvon.github.io"]
-  branch                 : "jr-branch"
+  branch                 : "master"
   commitMessage          : "New comment."
   filename               : comment-{@timestamp}
   name                   : "testvon.github.io"
