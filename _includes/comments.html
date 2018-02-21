@@ -66,9 +66,10 @@
         {% unless page.comments_locked == true %}
 
         <!-- Start new comment form -->
+        <hr>
         <div id="respond">
         <h2 class="page__comments-title">
-          Leave a Comment <small><a rel="nofollow" id="cancel-comment-reply-link" href="{{ page.url | absolute_url }}#respond" style="display:none;">Cancel reply</a></small>
+          Để lại bình luận của bạn <small><a rel="nofollow" id="cancel-comment-reply-link" href="{{ page.url | absolute_url }}#respond" style="display:none;">Cancel reply</a></small>
         </h2>
 
         <p class="small">{{ site.data.ui-text[site.locale].comment_form_info | default: "Your email is used for Gravatar image and reply notifications only.  Address will not be published." }} <span class="required">*</span></p>
