@@ -29,23 +29,37 @@
     {% when "staticman_v2" %}
       <section id="static-comments">
         {% if site.repository and site.staticman.branch %}
-          <!-- Start static comments -->
-          <div class="js-comments">
-            {% if site.data.comments[page.slug] %}
-              <h4 class="page__comments-title">{{ site.data.ui-text[site.locale].comments_title | default: "Comments" }}</h4>
-              {% assign comments = site.data.comments[page.slug] | sort %}
+                  <!-- Start static comments -->
+        <div id="comments" class="js-comments">
 
-              {% for comment in comments %}
-                {% assign email = comment[1].email %}
-                {% assign name = comment[1].name %}
-                {% assign url = comment[1].url %}
-                {% assign date = comment[1].date %}
-                {% assign message = comment[1].message %}
-                {% include comment.html index=forloop.index email=email name=name url=url date=date message=message %}
-              {% endfor %}
-            {% endif %}
+            <h4 class="page__comments-title">
+              {{ site.data.ui-text[site.locale].comments_title | default: "Comments" }}
+            </h4>
+            {% assign comments = site.data.comments[page.slug] | where_exp: 'item', 'item.replying_to == blank' | sort: 'date' %}
+
+<!--            {{ comments | inspect }}    -->
+
+            {% for comment in comments %}
+
+              {% assign index       = forloop.index %}
+              {% assign r           = comment.replying_to %}
+              {% assign replying_to = r | to_integer %}
+
+              {% assign avatar      = comment.avatar %}
+              {% assign email       = comment.email %}
+              {% assign name        = comment.name %}
+              {% assign url         = comment.url %}
+              {% assign date        = comment.date %}
+              {% assign slug        = comment.slug %}
+              {% assign origin      = comment.origin %}
+              {% assign message     = comment.message %}
+              {% include comment.html index=index replying_to=replying_to avatar=avatar email=email name=name url=url date=date slug=slug origin=origin message=message %}
+
+            {% endfor %}
           </div>
           <!-- End static comments -->
+        {% endif %}
+        {% unless page.comments_locked == true %}
 
           <!-- Start new comment form -->
           <div class="page__comments-form">
