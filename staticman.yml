@@ -30,4 +30,4 @@ comments:
     date:
       type               : date
       options:
-        format           : "timestamp-milliseconds" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
+        format           : "timestamp-seconds" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
