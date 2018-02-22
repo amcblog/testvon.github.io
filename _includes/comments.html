@@ -26,7 +26,6 @@
       <script async type="text/javascript" src="https://apis.google.com/js/plusone.js" onload="initComment()" />
       <noscript>Please enable JavaScript to view the <a href="https://plus.google.com/">comments powered by Google+.</a></noscript>-->
     {% when "staticman_v2" %}    
-
     <section id="static-comments">
       {% if site.repository and site.staticman.branch %}
       {% if site.data.comments[page.slug] %}
@@ -66,10 +65,9 @@
         {% unless page.comments_locked == true %}
 
         <!-- Start new comment form -->
-        <hr>
         <div id="respond">
         <h2 class="page__comments-title">
-          Để lại bình luận của bạn &emsp;&emsp;&emsp;&emsp;<small><a rel="nofollow" id="cancel-comment-reply-link" href="{{ page.url | absolute_url }}#respond" style="display:none;">Cancel</a></small>
+           Để lại bình luận của bạn &emsp;&emsp;&emsp;&emsp; <small><a rel="nofollow" id="cancel-comment-reply-link" href="{{ page.url | absolute_url }}#respond" style="display:none;">Cancel</a></small>
         </h2>
 
         <p class="small">{{ site.data.ui-text[site.locale].comment_form_info | default: "Your email is used for Gravatar image and reply notifications only.  Address will not be published." }} <span class="required">*</span></p>
@@ -94,13 +92,16 @@
             <label for="comment-form-email">{{ site.data.ui-text[site.locale].comment_form_email_label | default: "Email address" }} <small class="required">*</small></label>
             <input type="email" id="comment-form-email" name="fields[email]" tabindex="3" />
           </fieldset>
-          
+<!--          <fieldset>
+            <label for="comment-form-url">{{ site.data.ui-text[site.locale].comment_form_website_label | default: "Website (optional)" }}</label>
+            <input type="url" id="comment-form-url" name="fields[url]" tabindex="4"/>
+          </fieldset> -->
           <fieldset class="hidden" style="display: none;">
             <input type="hidden" name="options[origin]" value="{{ page.url | absolute_url }}">
             <input type="hidden" id="comment-parent" name="fields[replying_to]" value="">
             <input type="hidden" id="comment-post-id" name="options[slug]" value="{{ page.slug }}">
             <label for="comment-form-location">Not used. Leave blank if you are a human.</label>
-            
+          
             <input type="text" id="comment-form-location" name="fields[hidden]" autocomplete="off"/>
           </fieldset>
           <!-- Start comment form alert messaging -->
@@ -108,7 +109,7 @@
             <strong class="js-notice-text"></strong>
           </p>
           <!-- End comment form alert messaging -->
-         
+    
           <fieldset>
 <!--             <label for="comment-form-reply"><input type="checkbox" id="comment-form-reply" name="options[subscribe]" value="email">&nbsp;Notify me of new comments by email.</label> -->
             <button type="submit" id="comment-form-submit" tabindex="5" class="btn btn--large">{{ site.data.ui-text[site.locale].comment_btn_submit | default: "Submit Comment" }}</button>
@@ -119,6 +120,7 @@
       <!-- End new comment form -->
       {% else %}
         <hr><p><strong>Cuộc thảo luận đã kết thúc. Nếu bạn có câu hỏi nào liên quan đến nội dung của bài viết này, đừng ngại <a href="/about/" style="text-decoration: none">liên hệ</a> với chúng mình.</strong></p><hr>
+      {% endunless %}
       {% endunless %}
     {% endif %}
   </section>
