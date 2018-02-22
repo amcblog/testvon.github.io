@@ -1,7 +1,7 @@
 comments:
-  allowedFields          : ["name", "mail", "replying_to", "url", "origin", "slug", "message"]
+  allowedFields          : ['name', 'email', 'replying_to', 'url', origin', 'slug', 'message']
 #  requiredFields         : ['name', 'email', 'origin', 'slug', 'message']
-  requiredFields         : ['"name", "email", "message"]
+  requiredFields         : ['name', 'email', 'message']
   allowedOrigins         : ["testvon.github.io"]
   branch                 : "master"
   commitMessage          : "New comment."
