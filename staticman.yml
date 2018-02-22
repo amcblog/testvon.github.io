@@ -1,7 +1,7 @@
 comments:
-  allowedFields          : ['name', 'email', 'replying_to', 'url', origin', 'slug', 'message']
+  allowedFields          : ["name", "mail", "replying_to", "url", "origin", "slug", "message"]
 #  requiredFields         : ['name', 'email', 'origin', 'slug', 'message']
-  requiredFields         : ['name', 'email', 'message']
+  requiredFields         : ['"name", "email", "message"]
   allowedOrigins         : ["testvon.github.io"]
   branch                 : "master"
   commitMessage          : "New comment."
@@ -28,6 +28,6 @@ comments:
     secret: "jlq9b/ZJ74mENEygF6jhYrTs/YUQVZoeMKl9giynbSXBmU5spAj1ETwwzaMOzsRqLukAEvAku5v5Af7O++2n2NGeSLQNOixSJfqCDrNMk3Ob6A4aRN11CQT5qFRlJxyVGmia8tZzqEyd1mrbZpd+AVsIh2sC5jhdrx+zgogCLkk="
   generatedFields:
     date:
-      type               : date
+      type: date
       options:
-        format           : "iso8601" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
+        format: "iso8601" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
