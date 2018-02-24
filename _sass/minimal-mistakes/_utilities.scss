@@ -449,7 +449,14 @@ body:hover .visually-hidden button {
 
 .footnotes {
   color: mix(#fff, $gray, 25%);
-
+   
+ &:before {
+    content: "[";
+ }
+ &:after {
+    content: "]";
+ }
+   
   ol,
   li,
   p {
