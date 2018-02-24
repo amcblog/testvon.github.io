@@ -31,20 +31,20 @@ Bài viết có thể hiện tính năng trình bày 1 số loại bố cục ch
 Bạn cũng có thể gộp nhiều đoạn văn bản vào trong một thông báo bằng cách sử dụng Liquid để capture nội dung và sau đó filter với markdownify:
 
 ```html
-{% raw %}{% capture notice-4 %}
+{% raw %}{% capture notice-2 %}
 ### Chú ý:
 
 * Cảm ơn bạn đã chú ý đến chú ý này.
 * Mong rằng chú ý này đã khiến bạn chú ý đến các chú ý khác.
 {% endcapture %}{% endraw %}
 
-<div class="notice">{% raw %}{{ notice-4 | markdownify }}{% endraw %}</div>
+<div class="notice">{% raw %}{{ notice-2 | markdownify }}{% endraw %}</div>
 ```
-{% capture notice-4 %}
+{% capture notice-2 %}
 ### Chú ý:
 
 * Cảm ơn bạn đã chú ý đến chú ý này.
 * Mong rằng chú ý này đã khiến bạn chú ý đến các chú ý khác.
 {% endcapture %}
 
-<div class="notice">{{ notice-4 | markdownify }}</div>
+<div class="notice">{{ notice-2 | markdownify }}</div>
