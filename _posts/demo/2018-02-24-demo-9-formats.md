@@ -41,10 +41,12 @@ Bạn cũng có thể gộp nhiều đoạn văn bản vào trong một thông b
 <div class="notice">{% raw %}{{ notice-2 | markdownify }}{% endraw %}</div>
 ```
 {% capture notice-2 %}
-### Chú ý:
+#### Chú ý:
 
 * Cảm ơn bạn đã chú ý đến chú ý này.
 * Mong rằng chú ý này đã khiến bạn chú ý đến các chú ý khác.
 {% endcapture %}
 
-<div class="notice">{{ notice-2 | markdownify }}</div>
+<div class="notice">
+  {{ notice-2 | markdownify }}
+</div>
