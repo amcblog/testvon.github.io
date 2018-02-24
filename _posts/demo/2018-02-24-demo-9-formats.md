@@ -22,7 +22,7 @@ Bài viết có thể hiện tính năng trình bày 1 số loại bố cục ch
 **Thông tin thêm:** Đây là phần [thông tin thêm](#) tới bạn đọc về một chủ đề nào đó. Mong rằng phần thông tin thêm này của chúng tôi sẽ giúp ích cho bạn đọc.
 {: .notice--info}
 
-*Chú ý::** Đây là 1 văn bản [chú ý](#) bạn đọc về một thông tin nào đó. Mong rằng lời nhắc nhở này của chúng tôi sẽ giúp ích cho bạn đọc.
+**Chú ý:** Đây là 1 văn bản [chú ý](#) bạn đọc về một thông tin nào đó. Mong rằng lời nhắc nhở này của chúng tôi sẽ giúp ích cho bạn đọc.
 {: .notice--warning}
 
 **Mẹo:** Đây là 1 văn bản cung cấp một [mẹo](#) nào đó cho bạn đọc về một chủ đề nào đó. Mong rằng mẹo chúng tôi cung cấp sẽ giúp ích cho bạn đọc.
