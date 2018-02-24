@@ -13,13 +13,13 @@
 @mixin notice($notice-color) {
   margin: 2em 0 !important;  /* override*/
   padding: 1em;
-  color: $dark;
+  color: $dark-gray;
   font-family: $global-font-family;
   font-size: $type-size-6 !important;
   text-indent: initial; /* override*/
   background-color: mix(#fff, $notice-color, 80%);
   border-radius: $border-radius;
-  box-shadow: 0 1px 1px rgba($notice-color, 0.25);
+  box-shadow: 0 1px 1px rgba($notice-color, 0.35);
 
   h4 {
     margin-top: 0 !important; /* override*/
