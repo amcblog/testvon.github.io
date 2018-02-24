@@ -445,12 +445,7 @@ body:hover .visually-hidden button {
 .footnote {
   color: mix(#fff, $gray, 25%);
   text-decoration: none;
-}
-
-.footnotes {
-  color: mix(#fff, $gray, 25%);
-   
- &:before {
+   &:before {
     content: "[";
     color: mix(#fff, $gray, 25%);
     margin-bottom: 0;
@@ -463,6 +458,11 @@ body:hover .visually-hidden button {
     font-size: $type-size-6;
  }
    
+}
+
+.footnotes {
+  color: mix(#fff, $gray, 25%);
+  
   ol,
   li,
   p {
