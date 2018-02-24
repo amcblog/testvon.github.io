@@ -452,9 +452,15 @@ body:hover .visually-hidden button {
    
  &:before {
     content: "[";
+    color: mix(#fff, $gray, 25%);
+    margin-bottom: 0;
+    font-size: $type-size-6;
  }
  &:after {
     content: "]";
+    color: mix(#fff, $gray, 25%);
+    margin-bottom: 0;
+    font-size: $type-size-6;
  }
    
   ol,
