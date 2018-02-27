@@ -1,7 +1,7 @@
 ---
 layout: splash
-permalink: /members/
-title: "Members"
+permalink: /about/members/
+title: "Thành viên câu lạc bộ Toán ứng dụng"
 ---
 <link rel="stylesheet" type="text/css" href="/assets/css/member.css">
 
@@ -48,7 +48,7 @@ title: "Members"
 </div>
 <!-- Collection ends -->
 
-<h2>Faculty</h2>
+<h2>Ban chủ tịch</h2>
 <div itemscope itemtype ="http://schema.org/Person">
     {% assign current = site.data.authors | where: "group", "faculty" %}
     {% for memberid in current %}
@@ -56,7 +56,7 @@ title: "Members"
     {% endfor %}
 </div>
 
-<h2>Current Students</h2>
+<h2>Ban chủ nhiệm</h2>
 <div itemscope itemtype ="http://schema.org/Person">
     {% assign current = site.data.authors | where: "group", "current-student" | sort: "lastname" %}
     {% for memberid in current %}
@@ -64,7 +64,7 @@ title: "Members"
     {% endfor %}
 </div>
 
-<h2>Alumni</h2>
+<h2>Thành v</h2>
 <div itemscope itemtype ="http://schema.org/Person">
     {% assign current = site.data.authors | where: "group", "alumni" | sort: "year" %}
     {% for memberid in current %}
