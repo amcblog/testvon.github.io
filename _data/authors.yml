@@ -3,7 +3,7 @@ von:
   uri: "https://iamvon.github.io"
   email: "tuanpm.amc@gmail.com"
   bio: "Code runs my life."
-  avatar: "assets/img/admin.png"
+  avatar: "/assets/img/admin.png"
   facebook: "this.is.von"
   group: "alumni"
 
@@ -11,7 +11,7 @@ test:
   name: "Test"
   email: "test@gmail.com"
   bio: "Hi, i'm a Test."
-  avatar: "assets/img/amc.png"
+  avatar: "/assets/img/amc.png"
   facebook: "appliedmathclub"
 
 
