@@ -9,64 +9,84 @@ title: "Thành viên câu lạc bộ Toán ứng dụng"
 <!-- Collection starts -->
 <div class="collection">
 
-    <!-- Faculties of lab start -->
+    <!-- Ban chuyen mon start -->
     <div class="faculty author__avatar">
-        {% assign faculties = site.data.authors | where: "group", "faculty" %}
-        {% for member in faculties %}
+        {% assign chuyenmon = site.data.members | where: "group", "chuyenmon" %}
+        {% for member in chuyenmon %}
         <div class="member_intro">
             <a href="#{{member.name}}"><img src="{{member.avatar }}" alt="{{ member.name }}" itemprop="image"></a>
             <span class="name">{{member.name}}</span>
         </div>
         {% endfor %}
     </div>
-    <!-- Faculties of lab end -->
+    <!-- Ban chuyen mon end -->
 
-    <!-- Current students start -->
+    <!-- Ban nhan su start -->
     <div class="current-students author__avatar">
-        {% assign current = site.data.authors | where: "group", "current-student" | sort: "lastname" %}
-        {% for member in current %}
+        {% assign nhansu = site.data.members | where: "group", "nhansu" | sort: "lastname" %}
+        {% for member in nhansu %}
         <div class="member_intro">
             <a href="#{{member.name}}"><img src="{{member.avatar }}" alt="{{ member.name }}" itemprop="image"></a>
             <span class="name">{{member.name}}</span>
         </div>
         {% endfor %}
     </div>
-    <!-- Current students end -->
+    <!-- Ban nhan su end -->
 
-    <!-- Alumni starts -->
+    <!-- Ban truyen thong starts -->
     <div class="alumni author__avatar">
-        {% assign alumni = site.data.authors | where: "group", "alumni" | sort: "year" %}
-        {% for member in alumni %}
+        {% assign truyenthong = site.data.members | where: "group", "truyenthong" | sort: "year" %}
+        {% for member in truyenthong %}
         <div class="member_intro">
             <a href="#{{member.name}}"><img src="{{member.avatar }}" alt="{{ member.name }}" itemprop="image"></a>
             <span class="name">{{member.name}}</span>
         </div>
         {% endfor %}
     </div>
-    <!-- Alumni Ends-->
+    <!-- Ban truyen thong Ends-->
+    
+     <!-- Ban doi ngoai starts -->
+    <div class="alumni author__avatar">
+        {% assign doingoai = site.data.members | where: "group", "doingoai" | sort: "year" %}
+        {% for member in doingoai %}
+        <div class="member_intro">
+            <a href="#{{member.name}}"><img src="{{member.avatar }}" alt="{{ member.name }}" itemprop="image"></a>
+            <span class="name">{{member.name}}</span>
+        </div>
+        {% endfor %}
+    </div>
+    <!-- Ban doi ngoai Ends-->
 
 </div>
 <!-- Collection ends -->
 
-<h2>Ban chủ tịch</h2>
+<h2>Ban Chuyên môn</h2>
 <div itemscope itemtype ="http://schema.org/Person">
-    {% assign current = site.data.authors | where: "group", "faculty" %}
+    {% assign current = site.data.members | where: "group", "chuyenmon" %}
     {% for memberid in current %}
         {% include member.html member=memberid %}
     {% endfor %}
 </div>
 
-<h2>Ban chủ nhiệm</h2>
+<h2>Ban Nhân sự</h2>
 <div itemscope itemtype ="http://schema.org/Person">
-    {% assign current = site.data.authors | where: "group", "current-student" | sort: "lastname" %}
+    {% assign current = site.data.members | where: "group", "nhansu" | sort: "lastname" %}
     {% for memberid in current %}
         {% include member.html member=memberid %}
     {% endfor %}
 </div>
 
-<h2>Thành v</h2>
+<h2>Ban Truyền thông</h2>
 <div itemscope itemtype ="http://schema.org/Person">
-    {% assign current = site.data.authors | where: "group", "alumni" | sort: "year" %}
+    {% assign current = site.data.members | where: "group", "truyenthong" | sort: "year" %}
+    {% for memberid in current %}
+        {% include member.html member=memberid %}
+    {% endfor %}
+</div>
+
+<h2>Ban Đối ngoại</h2>
+<div itemscope itemtype ="http://schema.org/Person">
+    {% assign current = site.data.members | where: "group", "doingoai" | sort: "year" %}
     {% for memberid in current %}
         {% include member.html member=memberid %}
     {% endfor %}
