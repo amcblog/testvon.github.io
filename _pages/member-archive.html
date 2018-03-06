@@ -10,7 +10,7 @@ title: "Thành viên câu lạc bộ Toán ứng dụng"
 <div class="collection">
 
     <!-- Ban chuyen mon start -->
-    <div class="faculty author__avatar">
+    <div class="alumni author__avatar">
         {% assign chuyenmon = site.data.members | where: "group", "chuyenmon" %}
         {% for member in chuyenmon %}
         <div class="member_intro">
@@ -46,7 +46,7 @@ title: "Thành viên câu lạc bộ Toán ứng dụng"
     <!-- Ban truyen thong Ends-->
     
      <!-- Ban doi ngoai starts -->
-    <div class="alumni author__avatar">
+    <div class="current-students author__avatar">
         {% assign doingoai = site.data.members | where: "group", "doingoai" | sort: "year" %}
         {% for member in doingoai %}
         <div class="member_intro">
