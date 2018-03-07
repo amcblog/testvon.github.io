@@ -11,7 +11,7 @@
 
 
 // Styles for people pages starts
-h1.lab-members{
+h1.members{
     text-align: center;
 }
 .collection {
@@ -32,7 +32,7 @@ h1.lab-members{
             max-width: 200px;
         }
     }
-    .alumni {
+    .rowOdd {
         margin-top: 10px;
         border-bottom: 1px solid #e0dfdf;
         padding-bottom: 10px;
@@ -40,7 +40,7 @@ h1.lab-members{
             border: 2px solid #4095ff;
         }
     }
-    .current-students{
+    .rowEven {
         margin-top: 10px;
         border-bottom: 1px solid #e0dfdf;
         padding-bottom: 10px;
