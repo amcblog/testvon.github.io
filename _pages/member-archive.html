@@ -5,12 +5,12 @@ title: "Thành viên câu lạc bộ Toán ứng dụng"
 ---
 <link rel="stylesheet" type="text/css" href="/assets/css/member.css">
 
-</br><h1 class="lab-members">{{page.title}}</h1></br>
+</br><h1 class="members">{{page.title}}</h1></br>
 <!-- Collection starts -->
 <div class="collection">
 
     <!-- Ban chuyen mon start -->
-    <div class="alumni author__avatar">
+    <div class="rowOdd author__avatar">
         {% assign chuyenmon = site.data.members | where: "group", "chuyenmon" %}
         {% for member in chuyenmon %}
         <div class="member_intro">
@@ -22,7 +22,7 @@ title: "Thành viên câu lạc bộ Toán ứng dụng"
     <!-- Ban chuyen mon end -->
 
     <!-- Ban nhan su start -->
-    <div class="current-students author__avatar">
+    <div class="rowEven author__avatar">
         {% assign nhansu = site.data.members | where: "group", "nhansu" | sort: "lastname" %}
         {% for member in nhansu %}
         <div class="member_intro">
@@ -34,7 +34,7 @@ title: "Thành viên câu lạc bộ Toán ứng dụng"
     <!-- Ban nhan su end -->
 
     <!-- Ban truyen thong starts -->
-    <div class="alumni author__avatar">
+    <div class="rowOdd author__avatar">
         {% assign truyenthong = site.data.members | where: "group", "truyenthong" | sort: "year" %}
         {% for member in truyenthong %}
         <div class="member_intro">
@@ -46,7 +46,7 @@ title: "Thành viên câu lạc bộ Toán ứng dụng"
     <!-- Ban truyen thong Ends-->
     
      <!-- Ban doi ngoai starts -->
-    <div class="current-students author__avatar">
+    <div class="rowEven author__avatar">
         {% assign doingoai = site.data.members | where: "group", "doingoai" | sort: "year" %}
         {% for member in doingoai %}
         <div class="member_intro">
